@@ -8,7 +8,7 @@ Este sitio está optimizado para funcionar directamente con GitHub Pages sin nec
 
 ### Pasos para publicar:
 
-1. **Crear repositorio en GitHub** con el nombre `<tu-usuario>.github.io`
+1. **Crear repositorio en GitHub** con el nombre `mtroangelsanchez.github.io`
 2. **Subir los archivos** de este directorio al repositorio
 3. **Agregar imágenes** en la carpeta `images/` (ver `images/README.md` para detalles)
 4. **Configurar GitHub Pages:**
