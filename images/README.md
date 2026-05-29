@@ -1,43 +1,19 @@
-# Imágenes del Sitio Portfolio - José Ángel Sánchez Pérez
+# Imágenes del Portfolio
 
-## Imágenes requeridas
+## Archivos requeridos
 
-Coloca las siguientes imágenes en esta carpeta para completar el sitio:
+Coloca las siguientes imágenes en esta carpeta para que el sitio funcione correctamente:
 
-### Obligatorias
-| Archivo | Dimensiones Recomendadas | Descripción |
-|---------|--------------------------|-------------|
-| `banner.png` | 600x600 px | Foto principal del banner (foto profesional o ilustración) |
-| `profile.jpg` | 400x400 px | Foto de perfil para la sección About |
+| Archivo | Dimensiones recomendadas | Uso |
+|---------|--------------------------|-----|
+| `banner.png` | 450x450px | Imagen principal del hero section |
+| `profile.jpg` | 400x500px | Foto de perfil en la sección "Sobre Mí" |
+| `favicon.ico` | 32x32px / 16x16px | Ícono de la pestaña del navegador |
+| `apple-touch-icon.png` | 180x180px | Ícono para dispositivos Apple |
+| `og-image.png` | 1200x630px | Imagen para compartir en redes sociales |
 
-### Portfolio (Proyectos)
-| Archivo | Dimensiones Recomendadas | Descripción |
-|---------|--------------------------|-------------|
-| `project1.jpg` | 600x400 px | Proyecto: Arquitectura Microservicios VW |
-| `project2.jpg` | 600x400 px | Proyecto: AI/LLM Applications |
-| `project3.jpg` | 600x400 px | Proyecto: Portal PROMCAT-10 GIS |
-| `project4.jpg` | 600x400 px | Proyecto: Cloud Migration |
-| `project5.jpg` | 600x400 px | Proyecto: Mobile Development |
-| `project6.jpg` | 600x400 px | Proyecto: DevOps Pipeline |
+## Notas
 
-### Logos de Tecnologías
-| Archivo | Dimensiones Recomendadas | Descripción |
-|---------|--------------------------|-------------|
-| `logo-aws.png` | 150x60 px | Logo AWS |
-| `logo-azure.png` | 150x60 px | Logo Azure |
-| `logo-docker.png` | 150x60 px | Logo Docker |
-| `logo-java.png` | 150x60 px | Logo Java |
-| `logo-react.png` | 150x60 px | Logo React |
-| `logo-kubernetes.png` | 150x60 px | Logo Kubernetes |
-
-### Favicon
-| Archivo | Dimensiones | Descripción |
-|---------|-------------|-------------|
-| `favicon.ico` | 32x32 px | Ícono del sitio |
-
-## Notas para Google Sites
-- Google Sites acepta imágenes JPG, PNG y GIF
-- Tamaño máximo recomendado por imagen: 2MB
-- Usa imágenes optimizadas para web (comprimidas)
-- Las imágenes se pueden subir directamente al editor de Google Sites
-  y luego referenciar con la URL que Google genera
+- Optimiza las imágenes antes de subirlas (usa herramientas como TinyPNG o Squoosh)
+- Formatos recomendados: PNG para transparencias, JPG para fotos
+- Mantén el peso de cada imagen por debajo de 200KB para carga rápida

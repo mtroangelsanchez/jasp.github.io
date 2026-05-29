@@ -111,14 +111,18 @@ document.addEventListener('DOMContentLoaded', () => {
 
 window.addEventListener('scroll', revealOnScroll);
 
-// ===== CONTACT FORM (placeholder - Google Sites handles forms differently) =====
+// ===== CONTACT FORM (Formspree integration for GitHub Pages) =====
 const contactForm = document.getElementById('contact-form');
 
 if (contactForm) {
     contactForm.addEventListener('submit', (e) => {
-        e.preventDefault();
-        alert('¡Gracias por tu mensaje! Te contactaré pronto.');
-        contactForm.reset();
+        // If using Formspree, let the form submit naturally
+        // If YOUR_FORM_ID hasn't been replaced, prevent submission
+        const action = contactForm.getAttribute('action');
+        if (action && action.includes('YOUR_FORM_ID')) {
+            e.preventDefault();
+            alert('El formulario aún no está configurado. Contacta directamente por email.');
+        }
     });
 }
 
