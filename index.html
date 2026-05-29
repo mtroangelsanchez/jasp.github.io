@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>José Ángel Sánchez Pérez - Software Architect & Full Stack Developer</title>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">JA<span>SP</span></a>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link active">Inicio</a></li>
+                <li><a href="#about" class="nav-link">Sobre Mí</a></li>
+                <li><a href="#services" class="nav-link">Servicios</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#experience" class="nav-link">Experiencia</a></li>
+                <li><a href="#contact" class="nav-link">Contacto</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-container">
+            <div class="hero-content">
+                <p class="hero-greeting">Hola, soy</p>
+                <h1 class="hero-title">José Ángel<br>Sánchez Pérez</h1>
+                <h3 class="hero-subtitle">Software Architect & Full Stack Developer</h3>
+                <p class="hero-description">
+                    Lidero el diseño e implementación de soluciones empresariales, 
+                    enfocándome en arquitecturas de microservicios, tecnologías cloud 
+                    y aplicaciones potenciadas con IA.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Contáctame</a>
+                    <a href="#portfolio" class="btn btn-secondary">Mi Portfolio</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="images/banner.png" alt="José Ángel Sánchez Pérez">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">MI BIOGRAFÍA</span>
+                <h2 class="section-title">Software Architect & Full Stack Developer en Puebla, México</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        Como Arquitecto de Software en Volkswagen Financial Services, lidero el diseño 
+                        e implementación de soluciones a nivel empresarial. Mi experiencia abarca desde 
+                        la coordinación de equipos de desarrollo bajo metodología Scrum hasta la integración 
+                        de sistemas legacy con soluciones modernas basadas en la nube.
+                    </p>
+                    <p>
+                        He desarrollado aplicaciones potenciadas con IA utilizando LLMs (Bedrock, Gemini, 
+                        Copilot, OpenAI, Ollama) para NLP y automatización, logrando reducir presupuestos 
+                        entre un 20-50% mediante optimización cuidadosa de recursos.
+                    </p>
+                    <div class="about-info">
+                        <div class="info-item">
+                            <i class="fas fa-user"></i>
+                            <div>
+                                <span class="info-label">Nombre:</span>
+                                <span class="info-value">José Ángel Sánchez Pérez</span>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <span class="info-label">Ubicación:</span>
+                                <span class="info-value">Puebla, México</span>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <span class="info-label">Email:</span>
+                                <span class="info-value">contacto@jangelsanchez.com</span>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-language"></i>
+                            <div>
+                                <span class="info-label">Idiomas:</span>
+                                <span class="info-value">Español (Nativo), Inglés (B1-B2)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-social">
+                        <h4>Sígueme en</h4>
+                        <div class="social-links">
+                            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                    <div class="about-buttons">
+                        <a href="#contact" class="btn btn-primary">Contáctame</a>
+                        <a href="#" class="btn btn-secondary">Descargar CV</a>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="images/profile.jpg" alt="José Ángel Sánchez Pérez">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">MIS SERVICIOS</span>
+                <h2 class="section-title">Lo Que Puedo Hacer Por Ti</h2>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-sitemap"></i>
+                    </div>
+                    <h3>Arquitectura de Software</h3>
+                    <p>Diseño de arquitecturas empresariales, microservicios con Spring Boot, 
+                       integración de sistemas legacy con soluciones cloud modernas.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Desarrollo Full Stack</h3>
+                    <p>Desarrollo de aplicaciones web completas con Java EE, .NET, React, Vue 
+                       y bases de datos SQL/NoSQL.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <h3>Cloud & DevOps</h3>
+                    <p>Implementación en AWS, Azure y GCP. Contenedores con Docker/Kubernetes. 
+                       CI/CD con Jenkins, Terraform y Git.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>Inteligencia Artificial</h3>
+                    <p>Aplicaciones con LLMs (Bedrock, Gemini, OpenAI, Ollama), NLP, 
+                       automatización y generación de contenido con Stable Diffusion.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Desarrollo Móvil</h3>
+                    <p>Aplicaciones nativas para Android e iOS, con experiencia en 
+                       desarrollo multiplataforma.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Seguridad & Pentesting</h3>
+                    <p>Evaluación de vulnerabilidades para servidores y aplicaciones web 
+                       y móviles. Análisis de seguridad con Fortify.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">MIS HABILIDADES</span>
+                <h2 class="section-title">Habilidades Destacadas</h2>
+                <p class="section-description">
+                    Especializado en arquitectura de software y desarrollo full stack, 
+                    con pasión por crear soluciones innovadoras y eficientes.
+                </p>
+            </div>
+            <div class="skills-content">
+                <div class="skills-bars">
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Java EE / Spring Boot</span>
+                            <span class="skill-percent">95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Cloud (AWS / Azure / GCP)</span>
+                            <span class="skill-percent">90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Arquitectura de Microservicios</span>
+                            <span class="skill-percent">92%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 92%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Docker / Kubernetes</span>
+                            <span class="skill-percent">85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">React / Vue.js</span>
+                            <span class="skill-percent">80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">AI / LLMs (Bedrock, OpenAI, Gemini)</span>
+                            <span class="skill-percent">88%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 88%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">.NET Framework</span>
+                            <span class="skill-percent">85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">DevOps (Jenkins, Terraform, CI/CD)</span>
+                            <span class="skill-percent">82%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 82%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number" data-target="17">17+</div>
+                    <p class="stat-label">Años de Experiencia</p>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="50">50+</div>
+                    <p class="stat-label">Proyectos Completados</p>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="3">3</div>
+                    <p class="stat-label">Maestrías & Licenciatura</p>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="6">6+</div>
+                    <p class="stat-label">Certificaciones</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">MI TRABAJO</span>
+                <h2 class="section-title">Proyectos Destacados</h2>
+            </div>
+            <div class="portfolio-grid">
+                <!-- Proyecto 1: Microservicios VW -->
+                <div class="portfolio-item">
+                    <div class="portfolio-svg-bg">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 270">
+                            <rect width="400" height="270" fill="#1c2e3a"/>
+                            <!-- Nodos de microservicios -->
+                            <circle cx="200" cy="135" r="30" fill="#0d9e71" opacity="0.9"/>
+                            <circle cx="100" cy="70" r="20" fill="#34d399" opacity="0.7"/>
+                            <circle cx="300" cy="70" r="20" fill="#34d399" opacity="0.7"/>
+                            <circle cx="100" cy="200" r="20" fill="#34d399" opacity="0.7"/>
+                            <circle cx="300" cy="200" r="20" fill="#34d399" opacity="0.7"/>
+                            <circle cx="50" cy="135" r="15" fill="#0d9e71" opacity="0.5"/>
+                            <circle cx="350" cy="135" r="15" fill="#0d9e71" opacity="0.5"/>
+                            <!-- Conexiones -->
+                            <line x1="200" y1="135" x2="100" y2="70" stroke="#34d399" stroke-width="2" opacity="0.6"/>
+                            <line x1="200" y1="135" x2="300" y2="70" stroke="#34d399" stroke-width="2" opacity="0.6"/>
+                            <line x1="200" y1="135" x2="100" y2="200" stroke="#34d399" stroke-width="2" opacity="0.6"/>
+                            <line x1="200" y1="135" x2="300" y2="200" stroke="#34d399" stroke-width="2" opacity="0.6"/>
+                            <line x1="200" y1="135" x2="50" y2="135" stroke="#0d9e71" stroke-width="1.5" opacity="0.4"/>
+                            <line x1="200" y1="135" x2="350" y2="135" stroke="#0d9e71" stroke-width="1.5" opacity="0.4"/>
+                            <line x1="100" y1="70" x2="300" y2="70" stroke="#34d399" stroke-width="1" opacity="0.3" stroke-dasharray="5,5"/>
+                            <line x1="100" y1="200" x2="300" y2="200" stroke="#34d399" stroke-width="1" opacity="0.3" stroke-dasharray="5,5"/>
+                            <!-- Icono central API Gateway -->
+                            <rect x="185" y="120" width="30" height="30" rx="5" fill="#fff" opacity="0.9"/>
+                            <text x="200" y="140" text-anchor="middle" font-size="10" fill="#1c2e3a" font-weight="bold">API</text>
+                            <!-- Labels -->
+                            <text x="200" y="245" text-anchor="middle" font-size="12" fill="#fff" opacity="0.7" font-family="sans-serif">Microservices Architecture</text>
+                        </svg>
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h3>Microservicios VW</h3>
+                        <p>Arquitectura empresarial con Spring Boot para Volkswagen Financial Services</p>
+                    </div>
+                </div>
+                <!-- Proyecto 2: AI & LLM -->
+                <div class="portfolio-item">
+                    <div class="portfolio-svg-bg">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 270">
+                            <rect width="400" height="270" fill="#1a2530"/>
+                            <!-- Cerebro/Red neuronal -->
+                            <ellipse cx="200" cy="120" rx="80" ry="65" fill="none" stroke="#0d9e71" stroke-width="2" opacity="0.6"/>
+                            <ellipse cx="200" cy="120" rx="55" ry="45" fill="none" stroke="#34d399" stroke-width="1.5" opacity="0.5"/>
+                            <!-- Neuronas -->
+                            <circle cx="160" cy="100" r="6" fill="#0d9e71"/>
+                            <circle cx="200" cy="80" r="6" fill="#34d399"/>
+                            <circle cx="240" cy="100" r="6" fill="#0d9e71"/>
+                            <circle cx="170" cy="130" r="6" fill="#34d399"/>
+                            <circle cx="230" cy="130" r="6" fill="#34d399"/>
+                            <circle cx="200" cy="150" r="6" fill="#0d9e71"/>
+                            <!-- Conexiones neuronales -->
+                            <line x1="160" y1="100" x2="200" y2="80" stroke="#34d399" stroke-width="1" opacity="0.5"/>
+                            <line x1="200" y1="80" x2="240" y2="100" stroke="#34d399" stroke-width="1" opacity="0.5"/>
+                            <line x1="160" y1="100" x2="170" y2="130" stroke="#0d9e71" stroke-width="1" opacity="0.5"/>
+                            <line x1="240" y1="100" x2="230" y2="130" stroke="#0d9e71" stroke-width="1" opacity="0.5"/>
+                            <line x1="170" y1="130" x2="200" y2="150" stroke="#34d399" stroke-width="1" opacity="0.5"/>
+                            <line x1="230" y1="130" x2="200" y2="150" stroke="#34d399" stroke-width="1" opacity="0.5"/>
+                            <line x1="200" y1="80" x2="170" y2="130" stroke="#0d9e71" stroke-width="0.8" opacity="0.3"/>
+                            <line x1="200" y1="80" x2="230" y2="130" stroke="#0d9e71" stroke-width="0.8" opacity="0.3"/>
+                            <!-- Chat bubbles -->
+                            <rect x="290" y="60" width="70" height="30" rx="10" fill="#0d9e71" opacity="0.8"/>
+                            <rect x="40" y="150" width="70" height="30" rx="10" fill="#34d399" opacity="0.6"/>
+                            <text x="325" y="80" text-anchor="middle" font-size="9" fill="#fff" font-family="sans-serif">LLM</text>
+                            <text x="75" y="170" text-anchor="middle" font-size="9" fill="#fff" font-family="sans-serif">NLP</text>
+                            <!-- Output arrows -->
+                            <path d="M200 190 L160 220 L180 220 L180 250 L220 250 L220 220 L240 220 Z" fill="#0d9e71" opacity="0.4"/>
+                            <text x="200" y="245" text-anchor="middle" font-size="12" fill="#fff" opacity="0.7" font-family="sans-serif">AI & LLM Applications</text>
+                        </svg>
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h3>AI & LLM Apps</h3>
+                        <p>Aplicaciones con Bedrock, Gemini, OpenAI para NLP y automatización</p>
+                    </div>
+                </div>
+                <!-- Proyecto 3: Portal GIS PROMCAT-10 -->
+                <div class="portfolio-item">
+                    <div class="portfolio-svg-bg">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 270">
+                            <rect width="400" height="270" fill="#1c3a3a"/>
+                            <!-- Mapa base -->
+                            <rect x="50" y="30" width="300" height="190" rx="8" fill="#2a4a5a" stroke="#0d9e71" stroke-width="1.5"/>
+                            <!-- Grid del mapa -->
+                            <line x1="50" y1="80" x2="350" y2="80" stroke="#0d9e71" stroke-width="0.5" opacity="0.3"/>
+                            <line x1="50" y1="130" x2="350" y2="130" stroke="#0d9e71" stroke-width="0.5" opacity="0.3"/>
+                            <line x1="50" y1="170" x2="350" y2="170" stroke="#0d9e71" stroke-width="0.5" opacity="0.3"/>
+                            <line x1="150" y1="30" x2="150" y2="220" stroke="#0d9e71" stroke-width="0.5" opacity="0.3"/>
+                            <line x1="250" y1="30" x2="250" y2="220" stroke="#0d9e71" stroke-width="0.5" opacity="0.3"/>
+                            <!-- Polígonos de terreno -->
+                            <polygon points="80,90 130,60 180,85 160,120 90,115" fill="#34d399" opacity="0.3" stroke="#34d399" stroke-width="1"/>
+                            <polygon points="200,70 270,55 310,90 280,130 220,120" fill="#0d9e71" opacity="0.3" stroke="#0d9e71" stroke-width="1"/>
+                            <polygon points="100,140 170,135 190,175 140,190 80,170" fill="#34d399" opacity="0.25" stroke="#34d399" stroke-width="1"/>
+                            <polygon points="230,140 320,145 330,185 260,195" fill="#0d9e71" opacity="0.25" stroke="#0d9e71" stroke-width="1"/>
+                            <!-- Pin de ubicación -->
+                            <path d="M200 100 C200 85 215 80 215 95 C215 105 200 115 200 115 C200 115 185 105 185 95 C185 80 200 85 200 100Z" fill="#ff6b6b" opacity="0.9"/>
+                            <circle cx="200" cy="95" r="4" fill="#fff"/>
+                            <!-- Premio badge -->
+                            <circle cx="330" cy="50" r="18" fill="#FFD700" opacity="0.8"/>
+                            <text x="330" y="55" text-anchor="middle" font-size="10" fill="#1c2e3a" font-weight="bold">★</text>
+                            <text x="200" y="245" text-anchor="middle" font-size="12" fill="#fff" opacity="0.7" font-family="sans-serif">Portal GIS PROMCAT-10</text>
+                        </svg>
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h3>Portal PROMCAT-10</h3>
+                        <p>Portal GIS integrador para el Catastro del Estado de Guerrero - Premio Nacional</p>
+                    </div>
+                </div>
+                <!-- Proyecto 4: Cloud Migration -->
+                <div class="portfolio-item">
+                    <div class="portfolio-svg-bg">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 270">
+                            <rect width="400" height="270" fill="#1a2530"/>
+                            <!-- Servidor legacy (izquierda) -->
+                            <rect x="50" y="90" width="60" height="90" rx="5" fill="#4a5568" stroke="#718096" stroke-width="1.5"/>
+                            <rect x="60" y="100" width="40" height="8" rx="2" fill="#718096"/>
+                            <rect x="60" y="115" width="40" height="8" rx="2" fill="#718096"/>
+                            <rect x="60" y="130" width="40" height="8" rx="2" fill="#718096"/>
+                            <circle cx="80" cy="160" r="5" fill="#ff6b6b" opacity="0.8"/>
+                            <!-- Flecha de migración -->
+                            <path d="M130 135 L180 135" stroke="#0d9e71" stroke-width="3" stroke-dasharray="8,4"/>
+                            <polygon points="180,125 200,135 180,145" fill="#0d9e71"/>
+                            <!-- Nube (derecha) -->
+                            <path d="M250 100 C230 100 220 115 225 125 C210 125 205 145 220 150 L320 150 C340 150 345 130 330 125 C340 110 325 95 310 100 C305 85 275 80 265 95 C260 92 253 95 250 100Z" fill="#0d9e71" opacity="0.3" stroke="#34d399" stroke-width="2"/>
+                            <!-- Iconos dentro de la nube -->
+                            <circle cx="255" cy="130" r="10" fill="#34d399" opacity="0.7"/>
+                            <circle cx="285" cy="125" r="10" fill="#0d9e71" opacity="0.7"/>
+                            <circle cx="310" cy="130" r="10" fill="#34d399" opacity="0.7"/>
+                            <!-- Labels AWS/Azure -->
+                            <text x="255" y="134" text-anchor="middle" font-size="7" fill="#fff" font-weight="bold">A</text>
+                            <text x="285" y="129" text-anchor="middle" font-size="7" fill="#fff" font-weight="bold">W</text>
+                            <text x="310" y="134" text-anchor="middle" font-size="7" fill="#fff" font-weight="bold">S</text>
+                            <!-- Checkmark -->
+                            <circle cx="320" cy="90" r="15" fill="#0d9e71" opacity="0.8"/>
+                            <path d="M312 90 L318 96 L330 84" stroke="#fff" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+                            <text x="200" y="245" text-anchor="middle" font-size="12" fill="#fff" opacity="0.7" font-family="sans-serif">Cloud Migration</text>
+                        </svg>
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h3>Cloud Migration</h3>
+                        <p>Migración de sistemas legacy a soluciones cloud en AWS y Azure</p>
+                    </div>
+                </div>
+                <!-- Proyecto 5: Mobile Development -->
+                <div class="portfolio-item">
+                    <div class="portfolio-svg-bg">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 270">
+                            <rect width="400" height="270" fill="#1c2e3a"/>
+                            <!-- Teléfono 1 (Android) -->
+                            <rect x="120" y="40" width="70" height="130" rx="10" fill="#2a4a5a" stroke="#34d399" stroke-width="2"/>
+                            <rect x="128" y="55" width="54" height="95" fill="#1a2530"/>
+                            <!-- Pantalla Android -->
+                            <rect x="133" y="60" width="44" height="10" rx="3" fill="#0d9e71" opacity="0.6"/>
+                            <rect x="133" y="75" width="44" height="25" rx="3" fill="#34d399" opacity="0.3"/>
+                            <rect x="133" y="105" width="20" height="20" rx="3" fill="#0d9e71" opacity="0.4"/>
+                            <rect x="157" y="105" width="20" height="20" rx="3" fill="#34d399" opacity="0.4"/>
+                            <rect x="133" y="130" width="44" height="15" rx="3" fill="#0d9e71" opacity="0.2"/>
+                            <!-- Botón home Android -->
+                            <circle cx="155" cy="160" r="6" fill="none" stroke="#34d399" stroke-width="1.5"/>
+                            <!-- Teléfono 2 (iOS) -->
+                            <rect x="220" y="40" width="70" height="130" rx="10" fill="#2a4a5a" stroke="#0d9e71" stroke-width="2"/>
+                            <rect x="228" y="55" width="54" height="95" fill="#1a2530"/>
+                            <!-- Pantalla iOS -->
+                            <rect x="233" y="60" width="44" height="12" rx="3" fill="#34d399" opacity="0.5"/>
+                            <circle cx="243" cy="82" r="8" fill="#0d9e71" opacity="0.5"/>
+                            <circle cx="263" cy="82" r="8" fill="#34d399" opacity="0.5"/>
+                            <rect x="233" y="97" width="44" height="20" rx="5" fill="#0d9e71" opacity="0.3"/>
+                            <rect x="233" y="122" width="44" height="20" rx="5" fill="#34d399" opacity="0.2"/>
+                            <!-- Notch iOS -->
+                            <rect x="243" y="42" width="24" height="6" rx="3" fill="#1a2530"/>
+                            <!-- Home bar iOS -->
+                            <rect x="240" y="157" width="30" height="4" rx="2" fill="#34d399" opacity="0.5"/>
+                            <!-- Código flotante -->
+                            <text x="80" y="210" font-size="9" fill="#0d9e71" opacity="0.5" font-family="monospace">&lt;App/&gt;</text>
+                            <text x="290" y="210" font-size="9" fill="#34d399" opacity="0.5" font-family="monospace">Swift</text>
+                            <text x="200" y="245" text-anchor="middle" font-size="12" fill="#fff" opacity="0.7" font-family="sans-serif">Mobile Development</text>
+                        </svg>
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h3>Mobile Apps</h3>
+                        <p>Desarrollo de aplicaciones móviles para Android e iOS</p>
+                    </div>
+                </div>
+                <!-- Proyecto 6: DevOps & CI/CD -->
+                <div class="portfolio-item">
+                    <div class="portfolio-svg-bg">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 270">
+                            <rect width="400" height="270" fill="#1a2530"/>
+                            <!-- Infinity loop (DevOps symbol) -->
+                            <path d="M130 135 C130 105 160 90 185 105 C200 115 200 115 200 135 C200 115 200 115 215 105 C240 90 270 105 270 135 C270 165 240 180 215 165 C200 155 200 155 200 135 C200 155 200 155 185 165 C160 180 130 165 130 135Z" fill="none" stroke="#0d9e71" stroke-width="3" opacity="0.8"/>
+                            <!-- Pipeline stages -->
+                            <rect x="60" y="50" width="50" height="30" rx="5" fill="#0d9e71" opacity="0.7"/>
+                            <text x="85" y="69" text-anchor="middle" font-size="8" fill="#fff" font-family="sans-serif">Build</text>
+                            <rect x="130" y="50" width="50" height="30" rx="5" fill="#34d399" opacity="0.7"/>
+                            <text x="155" y="69" text-anchor="middle" font-size="8" fill="#fff" font-family="sans-serif">Test</text>
+                            <rect x="220" y="50" width="50" height="30" rx="5" fill="#0d9e71" opacity="0.7"/>
+                            <text x="245" y="69" text-anchor="middle" font-size="8" fill="#fff" font-family="sans-serif">Deploy</text>
+                            <rect x="290" y="50" width="55" height="30" rx="5" fill="#34d399" opacity="0.7"/>
+                            <text x="317" y="69" text-anchor="middle" font-size="8" fill="#fff" font-family="sans-serif">Monitor</text>
+                            <!-- Arrows between stages -->
+                            <path d="M110 65 L130 65" stroke="#fff" stroke-width="1.5" opacity="0.5"/>
+                            <path d="M180 65 L220 65" stroke="#fff" stroke-width="1.5" opacity="0.5"/>
+                            <path d="M270 65 L290 65" stroke="#fff" stroke-width="1.5" opacity="0.5"/>
+                            <!-- Container icons -->
+                            <rect x="80" y="195" width="25" height="25" rx="3" fill="#2496ED" opacity="0.6"/>
+                            <rect x="115" y="195" width="25" height="25" rx="3" fill="#2496ED" opacity="0.6"/>
+                            <rect x="80" y="195" width="25" height="5" rx="1" fill="#fff" opacity="0.3"/>
+                            <rect x="115" y="195" width="25" height="5" rx="1" fill="#fff" opacity="0.3"/>
+                            <!-- Git branch -->
+                            <circle cx="280" cy="200" r="5" fill="#0d9e71"/>
+                            <circle cx="310" cy="190" r="5" fill="#34d399"/>
+                            <circle cx="340" cy="200" r="5" fill="#0d9e71"/>
+                            <line x1="280" y1="200" x2="310" y2="190" stroke="#34d399" stroke-width="1.5"/>
+                            <line x1="310" y1="190" x2="340" y2="200" stroke="#34d399" stroke-width="1.5"/>
+                            <circle cx="310" cy="210" r="5" fill="#0d9e71" opacity="0.5"/>
+                            <line x1="280" y1="200" x2="310" y2="210" stroke="#0d9e71" stroke-width="1" opacity="0.5"/>
+                            <line x1="310" y1="210" x2="340" y2="200" stroke="#0d9e71" stroke-width="1" opacity="0.5"/>
+                            <text x="200" y="245" text-anchor="middle" font-size="12" fill="#fff" opacity="0.7" font-family="sans-serif">DevOps & CI/CD Pipeline</text>
+                        </svg>
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h3>DevOps & CI/CD</h3>
+                        <p>Pipelines con Jenkins, Docker, Kubernetes y Terraform</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience" id="experience">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">MI TRAYECTORIA</span>
+                <h2 class="section-title">Experiencia Profesional</h2>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2018 - Presente</span>
+                        <h3>Software Architect</h3>
+                        <h4>Volkswagen Financial Services - Puebla</h4>
+                        <p>Diseño e implementación de soluciones empresariales. Arquitectura de microservicios, 
+                           integración cloud, desarrollo con IA/LLMs. Reducción de presupuestos 20-50%.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2012 - 2018</span>
+                        <h3>Profesor Universitario</h3>
+                        <h4>Tec de Monterrey, ITST, UPMP, UPAM</h4>
+                        <p>Instrucción en Programación de Videojuegos, Desarrollo Móvil y Programación Web. 
+                           Establecimiento de laboratorios multimedia. Publicación de artículos académicos.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2010 - 2012</span>
+                        <h3>Senior Software Engineer</h3>
+                        <h4>Secretaría de Administración del Estado de Puebla</h4>
+                        <p>Dashboard financiero con ASP.NET y SQL Server. Administración de servidores IIS. 
+                           Migración de sistemas legacy. Reducción de tiempo y esfuerzo en 20%.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2008 - 2012</span>
+                        <h3>Software Engineer</h3>
+                        <h4>System Geographic Information SA - CDMX</h4>
+                        <p>Aplicaciones web geoespaciales con .NET y ESRI ArcGIS. Portal PROMCAT-10 
+                           para Catastro de Guerrero. Premio Nacional de Mejor Práctica en Gobierno Electrónico.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="education">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">EDUCACIÓN</span>
+                <h2 class="section-title">Formación Académica</h2>
+            </div>
+            <div class="education-grid">
+                <div class="education-card">
+                    <div class="education-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Maestría en Tecnologías de la Información</h3>
+                    <p>Universidad del Valle de Puebla</p>
+                    <span class="education-year">2018</span>
+                </div>
+                <div class="education-card">
+                    <div class="education-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Maestría en Pedagogía</h3>
+                    <p>Universidad Popular Autónoma de Puebla (UPAEP)</p>
+                    <span class="education-year">2014</span>
+                </div>
+                <div class="education-card">
+                    <div class="education-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Ingeniería en Ciencias de la Computación</h3>
+                    <p>Universidad Autónoma de Puebla (BUAP)</p>
+                    <span class="education-year">2008</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tech Logos Section -->
+    <section class="tech-logos">
+        <div class="container">
+            <div class="logos-track">
+                <!-- AWS -->
+                <div class="logo-item" title="AWS">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 304 182" width="120" height="60">
+                        <path fill="#252F3E" d="M86.4 66.4c0 3.7.4 6.7 1.1 8.9.8 2.2 1.8 4.6 3.2 7.2.5.8.7 1.6.7 2.3 0 1-.6 2-1.9 3l-6.3 4.2c-.9.6-1.8.9-2.6.9-1 0-2-.5-3-1.4-1.4-1.5-2.6-3.1-3.6-4.7-1-1.7-2-3.6-3.1-5.9-7.8 9.2-17.6 13.8-29.4 13.8-8.4 0-15.1-2.4-20-7.2-4.9-4.8-7.4-11.2-7.4-19.2 0-8.5 3-15.4 9.1-20.6 6.1-5.2 14.2-7.8 24.5-7.8 3.4 0 6.9.3 10.6.8 3.7.5 7.5 1.3 11.5 2.2v-7.3c0-7.6-1.6-12.9-4.7-16-3.2-3.1-8.6-4.6-16.3-4.6-3.5 0-7.1.4-10.8 1.3-3.7.9-7.3 2-10.8 3.4-1.6.7-2.8 1.1-3.5 1.3-.7.2-1.2.3-1.6.3-1.4 0-2.1-1-2.1-3.1v-4.9c0-1.6.2-2.8.7-3.5.5-.7 1.4-1.4 2.8-2.1 3.5-1.8 7.7-3.3 12.6-4.5 4.9-1.3 10.1-1.9 15.6-1.9 11.9 0 20.6 2.7 26.2 8.1 5.5 5.4 8.3 13.6 8.3 24.6v32.4zM45.8 81.6c3.3 0 6.7-.6 10.3-1.8 3.6-1.2 6.8-3.4 9.5-6.4 1.6-1.9 2.8-4 3.4-6.4.6-2.4 1-5.3 1-8.7v-4.2c-2.9-.7-6-1.3-9.2-1.7-3.2-.4-6.3-.6-9.4-.6-6.7 0-11.6 1.3-14.9 4-3.3 2.7-4.9 6.5-4.9 11.5 0 4.7 1.2 8.2 3.7 10.6 2.4 2.5 5.9 3.7 10.5 3.7zm80.3 10.8c-1.8 0-3-.3-3.8-1-.8-.6-1.5-2-2.1-3.9L96.7 10.2c-.6-2-.9-3.3-.9-4 0-1.6.8-2.5 2.4-2.5h9.8c1.9 0 3.2.3 3.9 1 .8.6 1.4 2 2 3.9l16.8 66.2 15.6-66.2c.5-2 1.1-3.3 1.9-3.9.8-.6 2.2-1 4-1h8c1.9 0 3.2.3 4 1 .8.6 1.5 2 1.9 3.9l15.8 67 17.3-67c.6-2 1.3-3.3 2-3.9.8-.6 2.1-1 3.9-1h9.3c1.6 0 2.5.8 2.5 2.5 0 .5-.1 1-.2 1.6-.1.6-.3 1.4-.7 2.5l-24.1 77.3c-.6 2-1.3 3.3-2.1 3.9-.8.6-2.1 1-3.8 1h-8.6c-1.9 0-3.2-.3-4-1-.8-.7-1.5-2-1.9-4L156 23l-15.4 64.4c-.5 2-1.1 3.3-1.9 4-.8.7-2.2 1-4 1h-8.6zm128.5 2.7c-5.2 0-10.4-.6-15.4-1.8-5-1.2-8.9-2.5-11.5-4-1.6-.9-2.7-1.9-3.1-2.8-.4-.9-.6-1.9-.6-2.8v-5.1c0-2.1.8-3.1 2.3-3.1.6 0 1.2.1 1.8.3.6.2 1.5.6 2.5 1 3.4 1.5 7.1 2.7 11 3.5 4 .8 7.9 1.2 11.9 1.2 6.3 0 11.2-1.1 14.6-3.3 3.4-2.2 5.2-5.4 5.2-9.5 0-2.8-.9-5.1-2.7-7-1.8-1.9-5.2-3.6-10.1-5.2l-14.5-4.5c-7.3-2.3-12.7-5.7-16-10.2-3.3-4.4-5-9.3-5-14.5 0-4.2.9-7.9 2.7-11.1 1.8-3.2 4.2-6 7.2-8.2 3-2.3 6.4-4 10.4-5.2 4-1.2 8.2-1.7 12.6-1.7 2.2 0 4.5.1 6.7.4 2.3.3 4.4.7 6.5 1.1 2 .5 3.9 1 5.7 1.6 1.8.6 3.2 1.2 4.2 1.8 1.4.8 2.4 1.6 3 2.5.6.8.9 1.9.9 3.3v4.7c0 2.1-.8 3.2-2.3 3.2-.8 0-2.1-.4-3.8-1.2-5.7-2.6-12.1-3.9-19.2-3.9-5.7 0-10.2.9-13.3 2.8-3.1 1.9-4.7 4.8-4.7 8.9 0 2.8 1 5.2 3 7.1 2 1.9 5.7 3.8 11 5.5l14.2 4.5c7.2 2.3 12.4 5.5 15.5 9.6 3.1 4.1 4.6 8.8 4.6 14 0 4.3-.9 8.2-2.6 11.6-1.8 3.4-4.2 6.4-7.3 8.8-3.1 2.5-6.8 4.3-11.1 5.6-4.5 1.4-9.2 2.1-14.3 2.1z"/>
+                        <path fill="#F90" d="M273.5 143.7c-32.9 24.3-80.7 37.2-121.8 37.2-57.6 0-109.5-21.3-148.7-56.7-3.1-2.8-.3-6.6 3.4-4.4 42.4 24.6 94.7 39.5 148.8 39.5 36.5 0 76.6-7.6 113.5-23.2 5.5-2.5 10.2 3.6 4.8 7.6z"/>
+                        <path fill="#F90" d="M287.2 128.1c-4.2-5.4-27.8-2.6-38.5-1.3-3.2.4-3.7-2.4-.8-4.5 18.8-13.2 49.7-9.4 53.3-5 3.6 4.5-1 35.4-18.6 50.2-2.7 2.3-5.3 1.1-4.1-1.9 4-9.9 12.9-32.2 8.7-37.5z"/>
+                    </svg>
+                </div>
+                <!-- Azure -->
+                <div class="logo-item" title="Azure">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 161.67 129" width="100" height="60">
+                        <path fill="#0089D6" d="M68.88 0L34.15 44.78 0 116.38h30.67L68.88 0zM75.12 8.37l-13.91 39.63 32.72 39.42-60.86 10.57h128.6L75.12 8.37z"/>
+                    </svg>
+                </div>
+                <!-- Docker -->
+                <div class="logo-item" title="Docker">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" width="80" height="60">
+                        <path fill="#2496ED" d="M349.9 236.3h-66.1v-59.9h66.1v59.9zm0-204.3h-66.1v60.7h66.1V32zm78.2 144.8H362v59.9h66.1v-59.9zm-156.3-72.1h-66.1v60.1h66.1v-60.1zm78.1 0h-66.1v60.1h66.1v-60.1zm276.8 100c-14.4-9.7-47.6-13.2-73.1-8.4-3.3-24-16.7-44.9-41.1-63.7l-14-9.3-9.3 14c-18.4 27.8-23.4 73.6-3.7 103.8-8.7 4.7-25.8 11.1-48.4 10.7H2.4c-8.7 50.4 5.8 116.5 44 161.1 37.1 43.4 92.7 65.4 165.4 65.4 157.4 0 273.9-72.5 328.4-204.2 21.4.4 67.6.1 91.3-45.2 1.5-2.5 6.6-13.2 8.5-17.1l-13.3-8.9zm-511.1-27.9h-66v59.9h66.1v-59.9zm78.1 0h-66.1v59.9h66.1v-59.9zm78.1 0h-66.1v59.9h66.1v-59.9zm-78.1-72.1h-66.1v60.1h66.1v-60.1z"/>
+                    </svg>
+                </div>
+                <!-- Java -->
+                <div class="logo-item" title="Java">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" width="45" height="60">
+                        <path fill="#E76F00" d="M277.74 312.9c9.8-6.7 23.4-12.5 23.4-12.5s-38.7 7-77.2 10.2c-47.1 3.9-97.7 4.7-123.1 1.3-60.1-8 33-30.1 33-30.1s-36.1-2.4-80.6 19c-52.5 25.4 130 37 224.5 12.1zm-85.4-32.1c-19-42.7-83.1-80.2 0-145.8C296 53.2 242.84 0 242.84 0c21.5 84.7-75.6 110.1-110.7 162.6-23.9 35.9 11.7 74.4 60.2 118.2zm114.6 176.2c4.4 5.6-2.4 10.4-2.4 10.4s28.5-14.8 15.4-33.2c-12.2-17.2-21.6-25.7 29.4-55.2 0 0-80.4 20-42.4 78zm-12.2 36.6c37.4 0 95.3-17.5 95.3-17.5s-65 11.8-141.5 4.4c-38.1-3.7-64.4-14.1-64.4-14.1s10.2 4.2 24.5 6.1c57.5 7.4 174.5-4.1 174.5-4.1s-30.8 14.4-88.4 25.2zM192.65 462s14.5 11.9-15.9 21.2c-57.7 17.6-240.2 22.9-291 .7-18.3-8 15.9-19.1 26.6-21.4 11.2-2.4 17.6-2 17.6-2-20.3-14.3-131.3 28.1-56.4 40.2C232.84 522.4 384 474.7 192.65 462z"/>
+                        <path fill="#5382A1" d="M277.74 312.9c9.8-6.7 23.4-12.5 23.4-12.5s-38.7 7-77.2 10.2c-47.1 3.9-97.7 4.7-123.1 1.3-60.1-8 33-30.1 33-30.1s-36.1-2.4-80.6 19c-52.5 25.4 130 37 224.5 12.1z"/>
+                    </svg>
+                </div>
+                <!-- React -->
+                <div class="logo-item" title="React">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="-11.5 -10.232 23 20.463" width="70" height="60">
+                        <circle r="2.05" fill="#61DAFB"/>
+                        <g stroke="#61DAFB" stroke-width="1" fill="none">
+                            <ellipse rx="11" ry="4.2"/>
+                            <ellipse rx="11" ry="4.2" transform="rotate(60)"/>
+                            <ellipse rx="11" ry="4.2" transform="rotate(120)"/>
+                        </g>
+                    </svg>
+                </div>
+                <!-- Kubernetes -->
+                <div class="logo-item" title="Kubernetes">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 722 702" width="65" height="60">
+                        <path fill="#326CE5" d="M358.986 6.012c-12.35-.058-24.352 3.603-34.404 10.53L92.09 162.372c-20.1 13.853-32.77 35.822-34.404 59.696L37.35 498.88c-1.634 23.874 7.87 47.14 25.82 63.21l155.83 139.44c17.95 16.07 42.24 23.04 65.95 18.93l276.81-47.94c23.71-4.11 44.2-18.56 55.68-39.26l138.59-241.56c11.48-20.7 13.11-45.37 4.43-67.04L651.87 83.1c-8.68-21.67-27.07-38.37-49.96-45.39L367.1 7.242c-2.68-.78-5.41-1.2-8.11-1.23z"/>
+                        <path fill="#fff" d="M361 101.5c-8.8.2-16 7.3-16.5 16.1l-2.5 42.5c-18.7 2.8-36.6 8.5-53.2 16.8l-30.5-30c-7-6.6-17.8-6.8-25-.4l-.4.4-25.5 25.5c-7 7-7 18.4 0 25.4l30 30.5c-8.3 16.6-14 34.5-16.8 53.2l-42.5 2.5c-9.1.2-16.3 7.7-16.1 16.8v36c-.2 9.1 7 16.6 16.1 16.8l42.5 2.5c2.8 18.7 8.5 36.6 16.8 53.2l-30 30.5c-7 7-7 18.4 0 25.4l25.5 25.5c7 7 18.4 7 25.4 0l30.5-30c16.6 8.3 34.5 14 53.2 16.8l2.5 42.5c.2 9.1 7.7 16.3 16.8 16.1h36c9.1.2 16.6-7 16.8-16.1l2.5-42.5c18.7-2.8 36.6-8.5 53.2-16.8l30.5 30c7 7 18.4 7 25.4 0l25.5-25.5c7-7 7-18.4 0-25.4l-30-30.5c8.3-16.6 14-34.5 16.8-53.2l42.5-2.5c9.1-.2 16.3-7.7 16.1-16.8v-36c.2-9.1-7-16.6-16.1-16.8l-42.5-2.5c-2.8-18.7-8.5-36.6-16.8-53.2l30-30.5c7-7 7-18.4 0-25.4l-25.5-25.5c-7-7-18.4-7-25.4 0l-30.5 30c-16.6-8.3-34.5-14-53.2-16.8l-2.5-42.5c-.2-8.8-7.3-16-16.1-16.1h-36.4zm18.2 120.5c66.3 0 120 53.7 120 120s-53.7 120-120 120-120-53.7-120-120 53.7-120 120-120z"/>
+                    </svg>
+                </div>
+                <!-- Spring Boot -->
+                <div class="logo-item" title="Spring Boot">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 667 667" width="60" height="60">
+                        <path fill="#6DB33F" d="M596.6 63.4C530.3-3 424.8-19 340.4 21.7L75.7 154.5c-84.4 40.7-138.2 124.5-140.5 218.8-2.3 94.3 47.3 181.1 129.5 226.6l247.4 136.8c82.2 45.5 183.3 42.3 262.5-8.3 79.2-50.6 126.8-137.7 123.8-226.8C695.4 411.5 662.9 129.8 596.6 63.4zM333.5 533.3c-110.5 0-200-89.5-200-200s89.5-200 200-200 200 89.5 200 200-89.5 200-200 200z"/>
+                        <path fill="#6DB33F" d="M333.5 183.3c-82.8 0-150 67.2-150 150s67.2 150 150 150 150-67.2 150-150-67.2-150-150-150zm0 250c-55.2 0-100-44.8-100-100s44.8-100 100-100 100 44.8 100 100-44.8 100-100 100z"/>
+                    </svg>
+                </div>
+                <!-- Git -->
+                <div class="logo-item" title="Git">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="60" height="60">
+                        <path fill="#F05032" d="M502.3 190.8L321.2 9.7c-12.9-12.9-33.9-12.9-46.9 0l-37.5 37.5 47.3 47.3c11-3.7 23.6-1.1 32.4 7.7 8.8 8.8 11.4 21.5 7.6 32.5l45.6 45.6c11-3.8 23.7-1.2 32.5 7.6 12.3 12.3 12.3 32.2 0 44.5-12.3 12.3-32.2 12.3-44.5 0-9.2-9.2-11.5-22.7-6.9-34l-42.5-42.5v111.9c3 1.5 5.8 3.5 8.3 6 12.3 12.3 12.3 32.2 0 44.5-12.3 12.3-32.2 12.3-44.5 0-12.3-12.3-12.3-32.2 0-44.5 3.1-3.1 6.7-5.5 10.6-7.1V209c-3.9-1.6-7.5-4-10.6-7.1-9.3-9.3-11.5-22.9-6.8-34.1l-46.7-46.7-123.5 123.5c-12.9 12.9-12.9 33.9 0 46.9l181.1 181.1c12.9 12.9 33.9 12.9 46.9 0l180.3-180.3c12.9-12.9 12.9-33.9 0-46.9z"/>
+                    </svg>
+                </div>
+                <!-- Jenkins -->
+                <div class="logo-item" title="Jenkins">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="60" height="60">
+                        <path fill="#D33833" d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"/>
+                        <path fill="#fff" d="M256 48c114.9 0 208 93.1 208 208s-93.1 208-208 208S48 370.9 48 256 141.1 48 256 48zm0 40c-92.6 0-168 75.4-168 168s75.4 168 168 168 168-75.4 168-168S348.6 88 256 88z"/>
+                        <path fill="#fff" d="M256 128c70.7 0 128 57.3 128 128s-57.3 128-128 128-128-57.3-128-128 57.3-128 128-128zm-32 64v128l96-64-96-64z"/>
+                    </svg>
+                </div>
+                <!-- Terraform -->
+                <div class="logo-item" title="Terraform">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="60" height="60">
+                        <path fill="#5C4EE5" d="M22.4 4v18.7l16.2 9.4V13.4L22.4 4z"/>
+                        <path fill="#4040B2" d="M40.6 32.1l16.2-9.4V4L40.6 13.4v18.7z"/>
+                        <path fill="#5C4EE5" d="M7.2 12.6v18.7l16.2 9.4V22L7.2 12.6zm15.2 30.1v18.7l16.2 9.4V52.1l-16.2-9.4z"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">CONTACTO</span>
+                <h2 class="section-title">¿Tienes un Proyecto en Mente?</h2>
+                <p class="section-description">
+                    Estoy disponible para proyectos de arquitectura de software, 
+                    consultoría cloud y desarrollo full stack.
+                </p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Ubicación</h4>
+                            <p>Puebla, México</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>contacto@jangelsanchez.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-globe"></i>
+                        <div>
+                            <h4>Disponibilidad</h4>
+                            <p>Consultoría & Proyectos Freelance</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contact-form">
+                    <div class="form-row">
+                        <input type="text" placeholder="Tu Nombre" required>
+                        <input type="email" placeholder="Tu Email" required>
+                    </div>
+                    <input type="text" placeholder="Asunto" required>
+                    <textarea placeholder="Tu Mensaje" rows="5" required></textarea>
+                    <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="#home">JA<span>SP</span></a>
+                    <p>Software Architect & Full Stack Developer</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Inicio</a>
+                    <a href="#about">Sobre Mí</a>
+                    <a href="#services">Servicios</a>
+                    <a href="#portfolio">Portfolio</a>
+                    <a href="#contact">Contacto</a>
+                </div>
+                <div class="footer-social">
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 José Ángel Sánchez Pérez. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
